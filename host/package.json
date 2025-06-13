@@ -1,0 +1,23 @@
+{
+  "name": "retry-mfe-isue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-cli serve",
+    "serve": "serve dist -p 3001",
+    "build": "npm run clean && webpack --mode production",
+    "clean": "rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@module-federation/enhanced": "^0.8.12",
+    "@module-federation/retry-plugin": "^0.13.1",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^5.2.1"
+  }
+}
