@@ -1,6 +1,7 @@
 ### How to reproduce
 
-1. 
+1. Install dependencies and run projects
+   
 run `npm install` inside the host/ and mfe/ folder.
 run `npm start` inside the host/ and mfe/ folder.
 
