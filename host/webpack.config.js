@@ -16,9 +16,8 @@ export default {
     new ModuleFederationPlugin({
       name: "host",
       remotes: {
-        'mfe': 'mfe@http://localhost:8083/mf-manifest.json',
-      },
-      runtimePlugins: ['./retry.js'],
+        'mfe': 'mfe@http://localhost:3002/mf-manifest.json',
+      }
     }),
   ]
 };

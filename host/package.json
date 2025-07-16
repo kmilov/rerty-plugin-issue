@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-cli serve",
+    "start": "webpack-cli serve --port 3001",
     "serve": "serve dist -p 3001",
     "build": "npm run clean && webpack --mode production",
     "clean": "rm -rf dist"
